@@ -13,7 +13,3 @@ We weren't in group for this project and we had 1 week.
 
 ![Screenshot_1](screenshots/screenshot_1.png)
 ![Screenshot_2](screenshots/screenshot_2.png)
-
-# Links
-
-Executable (32 and 64 bits): [Download](http://adrien-givry.com/download/space-invaders.zip)
