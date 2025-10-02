@@ -10,7 +10,7 @@ void image_init()
 	}
 }
 
-bool loadImage(SDL_Surface **p_surface, char *p_path)
+bool loadImage(SDL_Surface **p_surface, const char *p_path)
 {
 	bool isSucceed = true;
 

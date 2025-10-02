@@ -5,6 +5,7 @@
 #include <SDL.h>
 #include <SDL_image.h>
 #include "Window.h"
+#include "ImageManager.h"
 
 typedef struct EntityBody EntityBody;
 struct EntityBody

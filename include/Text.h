@@ -5,6 +5,7 @@
 #include <SDL_image.h>
 #include <SDL_ttf.h>
 #include "string_copy.h"
+#include "string_concatenate.h"
 
 typedef struct Text Text;
 struct Text

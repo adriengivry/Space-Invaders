@@ -1,4 +1,5 @@
 #include "string_concatenate.h"
+#include <stdlib.h>
 
 char* string_concatenate(const char* src1, const char* src2)
 {
