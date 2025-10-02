@@ -45,7 +45,7 @@ if(NOT SDL2_image_FOUND)
         GIT_REPOSITORY https://github.com/libsdl-org/SDL_image.git
         GIT_TAG release-2.8.2
         GIT_SHALLOW TRUE
-        GIT_SUBMODULES ""  # Don't fetch submodules
+        GIT_SUBMODULES "external/libpng" "external/zlib"  # Only fetch required submodules for PNG support
     )
     
     set(SDL2IMAGE_INSTALL OFF CACHE BOOL "" FORCE)
@@ -92,7 +92,7 @@ if(NOT SDL2_ttf_FOUND)
         GIT_REPOSITORY https://github.com/libsdl-org/SDL_ttf.git
         GIT_TAG release-2.20.2
         GIT_SHALLOW TRUE
-        GIT_SUBMODULES ""  # Don't fetch submodules
+        GIT_SUBMODULES "external/freetype"  # Only fetch freetype submodule
     )
     
     set(SDL2TTF_INSTALL OFF CACHE BOOL "" FORCE)
